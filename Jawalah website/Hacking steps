@@ -1,0 +1,20 @@
+Hacking steps
+	1- Recon
+		- Social engineering
+		- Social networks
+		- google hacking
+	2- Scaning
+		- Network scan: done to discover live hosts, done through pinging
+		- Port scan: done to indicate if the port is open for linking or not, if the port is open it wouldn't reply to the tcp else it would reply with rst to cut off the connection
+		- vulnerability scan: used by companies to discover culnerablilities in the system. hackers have the avility to also run the test.
+
+		- NMAP, ZENMAP: IPScanners and detects live hosts
+		- HPING3: same like NMAP but it also can create custom packets and it iterpets responses very well to tell u about the network
+		- NEXPOSE: vulrnability scanner
+		- WIRESHARK: packet sniffer for reading it and altering it as it goes in the network
+		- MALTEGO: banner grabing which returns information of services running on a system
+		- Proxies: act as an insulation for the attacker
+
+	3- Enumeration
+		establish an active connection with the target system to furthermore discover vulranabilities
+	4- Hacking 

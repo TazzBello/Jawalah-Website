@@ -24,20 +24,20 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('https://github.com/TazzBello/Jawalah-Website/blob/master/Jawalah%20website/jawalah.jpg');
+    background-image: url('jawalah.jpg');
     min-height: 100%;
 }
 
 /* Second image (HeadQuarters) */
 .bgimg-2 {
-    background-image: url("https://github.com/TazzBello/Jawalah-Website/blob/master/Jawalah%20website/HQ.jpeg");
+    background-image: url("HQ.jpeg");
     min-height: 400px;
     
 }
 
 /* Third image (Portfolio) */
 .bgimg-3 {
-    background-image: url("https://github.com/TazzBello/Jawalah-Website/blob/master/Jawalah%20website/HQ.jpeg");
+    background-image: url("HQ.jpeg");
     min-height: 400px;
     
 }
@@ -46,7 +46,7 @@ body, html {
 
 /* Fourth image (Contact) */
 .bgimg-4 {
-    background-image: url("https://github.com/TazzBello/Jawalah-Website/blob/master/Jawalah%20website/suggest-01.jpg");
+    background-image: url("suggest-01.jpg");
     min-height: 400px;
 }
 
