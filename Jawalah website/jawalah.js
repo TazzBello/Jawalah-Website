@@ -17,7 +17,7 @@
 function topBar() {
     "use strict";
     var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-black";
     } else {
         navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-black", "");
