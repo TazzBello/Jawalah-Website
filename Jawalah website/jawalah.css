@@ -8,7 +8,7 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
-    
+
     /* Badges for viewing images  */
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
@@ -171,4 +171,49 @@ body, html {
 	
 	transform: scale(0.7,0.7);
 	opacity: 0.0;
+}
+
+/*
+*
+ * Responsiveness
+ 
+*/
+@media screen and (max-width: 1024px)
+{	
+	body
+	{
+		font-size: 18px;
+		line-height: 27px;
+	}
+}
+
+@media screen and (max-width: 800px)
+{	
+	h1 span
+	{
+		display: block;
+	}
+	
+	div.block
+	{
+		height: 85vh;
+		padding: 15vh 15vw 0 15vw;
+	}
+}
+
+@media screen and (max-width: 420px)
+{	
+	body
+	{
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+@media screen and (max-width: 360px)
+{	
+	h1
+	{
+		font-size: 3em;
+	}
 }

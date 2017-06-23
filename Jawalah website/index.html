@@ -15,15 +15,15 @@
   <script src="ScrollTrigger.min.js"></script>
   <script src="jawalah.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function(){
+    document.addEventListener("DOMContentLoaded", function() {
       var trigger = new ScrollTrigger({
-          addHeight: true
+        addHeight: true
       });
     });
   </script>
 </head>
 
-<body>
+<body class="w3-light-gray">
 
 
   <!-- Navbar (sit on top) -->
@@ -32,7 +32,7 @@
       <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
         <i class="fa fa-bars"></i>
       </a>
-      <a href="#home" class="w3-bar-item w3-button w3-right" style="color:white">الصفحة الرئيسية <i class="fa fa-home"></i></a>
+      <a href="#home" class="w3-bar-item w3-hide-small w3-button w3-right" style="color:white">الصفحة الرئيسية <i class="fa fa-home"></i></a>
       <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-right" style="color:white"> عن النادي <i class="fa fa-question"></i></a>
       <a href="#HeadQuarters" class="w3-bar-item w3-button w3-hide-small w3-right" style="color:white"> مقر النادي <i class="fa fa-building" ></i></a>
       <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-right" style="color:white">ألبوم الصور <i class="fa fa-th"></i></a>
@@ -55,65 +55,63 @@
   </div>
 
   <!-- First Parallax Image with Logo Text -->
-  <div class="bgimg-1 w3-display-container" id="home">
+  <div class="bgimg-1 w3-display-container " id="home">
     <div class="w3-display-middle w3-image" style="white-space:nowrap;">
     </div>
   </div>
 
   <!-- Container (About Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="about">
-          <h3 data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="intro w3-center">مقدمة عن نادي عشائر الجوالة</h3>
+  <div class="w3-container w3-content w3-white w3-card-4 w3-padding-large" id="about">
+    <h3 data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="w3-mobile intro w3-center">مقدمة عن نادي عشائر الجوالة</h3>
 
-        <p data-scroll="toggle(.fromBottomIn, .fromBottomOut)" class="intro w3-center"><em>جوال دوما مستعد</em></p>
-        <p data-scroll="toggle(.fromTopIn, .fromTopOut)" id="p1" style="text-align:right">الحركة الكشفية هي حركة تقودها منظمات عالمية تهدف لمساعدة ودعم الشباب في تنمية الجوانب البدنية والعقلية والروحية، مع التركيز على جانب مهارات البقاء وحياة الخلاء، وتلعب الحركة الكشفية دورًا بنّاءً في خدمة المجتمع وتقديم الدعم لكافة أطيافه. تأسست الحركة
-          الكشفية عام 1907م/1325هـ في المملكة المتحدة، ومنها توسعت إلى معظم دول العالم. وتأسست جمعية الكشافة العربية السعودية عام 1961م/1381هـ معلنة بدأ الحركة الكشفية في المملكة العربية السعودية، والجوالة هي مرحلة من مراحل الحركة الكشفية، وهي المرحلة التي
-          تُعنى بالشباب الجامعي. نادي عشائر الجوالة بجامعة الملك فهد للبترول والمعادن هو نادٍ طلابي تطوعيّ يتبعُ إدارة النشاط الطلابي بالجامعة، وهو الممثل والواجهة الرئيسية للحركة الكشفية داخل الجامعة. يروي لنا التاريخ أن مؤسس عشائر جوالة جامعة الملك فهد
-          للبترول والمعادن هو طالب اسمه إبراهيم عبد الحميد عالم، ولا يعرف على وجه التحديد متى تحدد ذلك ولكن أقدم ما جاد به علينا الأرشيف أنه تم في يوم الخميس (30 مارس 1972م، 14 صفر 1392هـ) عُقد اجتماعٌ للطلبةِ الذين سجلوا في فرقة الجوالة، وفي ذلك الاجتماع
-          تم انتخاب الطالب إبراهيم (صاحب الرقم الجامعي 69448) رائداً لفرقة الجوالة. وكان عدد الفرقة آنذاك ثلاثةً وأربعينَ فردًا مقسمين إلى طلائع، وكل طليعةٍ تتكون من أحدَ عشرَ فردًا، ولم يكن للفرقة مقر في ذلك الوقت حتى عام 1979م/1399هـ حيث أصبح لهم مقرٌ في
-          الوحدة السكنية رقم 632
-        </p>
-        <div class="w3-row">
-          <div class="w3-col m6 w3-center w3-padding-large">
-            <p data-scroll="toggle(.fromTopIn, .fromTopOut)"><b  id="vis"><i class="fa fa-eye w3-margin-right"></i>الرؤية</b></p><br>
-            <img data-scroll="toggle(.scaleDownIn, .scaleDownOut)" id="eye" src="vision.svg" class="w3-round w3-image w3-opacity w3-hover-opacity-off w3-padding-large" alt="vision icon" width="500" height="333">
-          </div>
-
-          <!-- Hide this text on small devices -->
-          <!-- الرؤية -->
-          <div style="text-align:right" class="w3-col m6 w3-hide-small w3-padding-large">
-            <p data-scroll="toggle(.fromLeftIn, .fromLeftOut)"><b id="visInd">الرؤية للعضو</b></p>
-            <p data-scroll="toggle(.fromRightIn, .fromRightOut)" id="p2">أن يكون قائداً في مجاله، مؤثراً في محيطه، متوازناً في شخصيته، واعياً بذاته، يملك رؤيةً ورسالةً في حياته
-            </p>
-            <p data-scroll="toggle(.fromLeftIn, .fromLeftOut)"><b id="visGrp">الرؤية للنادي</b></p>
-            <p data-scroll="toggle(.fromRightIn, .fromRightOut)" id="p3">أن يكون الأول بتكامل الأنشطة وتنوع البرامج وتقديمها باحترافية وإبداع على مستوى الجامعة</p>
-            <p data-scroll="toggle(.fromRightIn, .fromRightOut)" id="p4">أن يكون مشاركاً رائداً في المجال الكشفي محلّيًا ودوليًا</p>
-          </div>
-
-          <!-- الرسالة -->
-          <div class="w3-row ">
-            <div class="w3-col w3-right m6 w3-center w3-padding-large">
-              <p data-scroll="toggle(.fromTopIn, .fromTopOut)"><b><i class="fa fa-envelope w3-margin-right"></i>الرسالة</b></p><br>
-              <img data-scroll="toggle(.scaleDownIn, .scaleDownOut)" id="envelope" src="mail.svg" class="w3-round w3-image w3-opacity w3-hover-opacity-off w3-padding-large" alt="mail icon" width="500" height="333">
-            </div>
-
-            <div style="text-align:right" class="w3-col w3-left m6 w3-hide-small w3-padding-large">
-                <p data-scroll="toggle(.fromLeftIn, .fromLeftOut)"><b>الرسالة </b></p>
-              <p data-scroll="toggle(.fromRightIn, .fromRightOut)">نحن نادي عشائر الجوالة نشاطٌ طلابي ذو طابع تربويّ تطوعي بجامعة الملك فهد للبترول والمعادن، نسعى للارتقاء بالمجتمع وذلك بالاستثمار في الإنسان وصقل شخصيته وتعزيز هويّته والسموِّ بروحه، وفق المنهج الكشفي السعودي </p>
-            </div>
-          </div>
+    <p data-scroll="toggle(.fromBottomIn, .fromBottomOut)" class="w3-mobile w3-center"><em>جوال دوما مستعد</em></p>
+    <p data-scroll="toggle(.fromTopIn, .fromTopOut)" id="p1" style="text-align:right">الحركة الكشفية هي حركة تقودها منظمات عالمية تهدف لمساعدة ودعم الشباب في تنمية الجوانب البدنية والعقلية والروحية، مع التركيز على جانب مهارات البقاء وحياة الخلاء، وتلعب الحركة الكشفية دورًا بنّاءً في خدمة المجتمع وتقديم الدعم لكافة أطيافه. تأسست الحركة
+      الكشفية عام 1907م/1325هـ في المملكة المتحدة، ومنها توسعت إلى معظم دول العالم. وتأسست جمعية الكشافة العربية السعودية عام 1961م/1381هـ معلنة بدأ الحركة الكشفية في المملكة العربية السعودية، والجوالة هي مرحلة من مراحل الحركة الكشفية، وهي المرحلة التي
+      تُعنى بالشباب الجامعي. نادي عشائر الجوالة بجامعة الملك فهد للبترول والمعادن هو نادٍ طلابي تطوعيّ يتبعُ إدارة النشاط الطلابي بالجامعة، وهو الممثل والواجهة الرئيسية للحركة الكشفية داخل الجامعة. يروي لنا التاريخ أن مؤسس عشائر جوالة جامعة الملك فهد
+      للبترول والمعادن هو طالب اسمه إبراهيم عبد الحميد عالم، ولا يعرف على وجه التحديد متى تحدد ذلك ولكن أقدم ما جاد به علينا الأرشيف أنه تم في يوم الخميس (30 مارس 1972م، 14 صفر 1392هـ) عُقد اجتماعٌ للطلبةِ الذين سجلوا في فرقة الجوالة، وفي ذلك الاجتماع
+      تم انتخاب الطالب إبراهيم (صاحب الرقم الجامعي 69448) رائداً لفرقة الجوالة. وكان عدد الفرقة آنذاك ثلاثةً وأربعينَ فردًا مقسمين إلى طلائع، وكل طليعةٍ تتكون من أحدَ عشرَ فردًا، ولم يكن للفرقة مقر في ذلك الوقت حتى عام 1979م/1399هـ حيث أصبح لهم مقرٌ في
+      الوحدة السكنية رقم 632
+    </p>
+    
+    <!-- الرؤية -->
+    <div class="w3-panel">
+        <div class="w3-half w3-center w3-padding-large">
+          <p data-scroll="toggle(.fromTopIn, .fromTopOut)"><b><i class="fa fa-eye w3-margin-right"></i>الرؤية</b></p><br>
+          <img data-scroll="toggle(.scaleDownIn, .scaleDownOut)"  src="vision.svg" class="w3-round w3-image w3-opacity w3-padding-large" alt="vision icon">
         </div>
+
+        <div style="text-align:right" class=" w3-col w3-half w3-padding-large">
+          <div class="w3-rightbar  w3-border-blue w3-round" data-scroll="toggle(.fromBottomIn, .fromBottomOut)"><p data-scroll="toggle(.fromLeftIn, .fromLeftOut)" class="w3-container"><b>الرؤية للعضو</b></p></div>
+          <p data-scroll="toggle(.fromRightIn, .fromRightOut)">أن يكون قائداً في مجاله، مؤثراً في محيطه، متوازناً في شخصيته، واعياً بذاته، يملك رؤيةً ورسالةً في حياته</p>
+          <div class="w3-rightbar w3-border-blue w3-round" data-scroll="toggle(.fromBottomIn, .fromBottomOut)"><p data-scroll="toggle(.fromLeftIn, .fromLeftOut)" class="w3-container"><b>الرؤية للنادي</b></p></div>
+          <p data-scroll="toggle(.fromRightIn, .fromRightOut)">أن يكون الأول بتكامل الأنشطة وتنوع البرامج وتقديمها باحترافية وإبداع على مستوى الجامعة</p>
+          <p data-scroll="toggle(.fromRightIn, .fromRightOut)">أن يكون مشاركاً رائداً في المجال الكشفي محلّيًا ودوليًا</p>
+        </div>
+    </div>
+    <!-- الرسالة -->
+      <div class="w3-panel">
+        <div class=" w3-half w3-center w3-padding-large w3-right ">
+          <p data-scroll="toggle(.fromTopIn, .fromTopOut)"><b><i class="fa fa-bullseye w3-margin-right"></i>الرسالة</b></p><br>
+          <img data-scroll="toggle(.scaleDownIn, .scaleDownOut)" id="bullseye" src="mission.svg" class="w3-round w3-image w3-opacity w3-padding-large" alt="mail icon">
+        </div>
+
+        <div style="text-align:right" class=" w3-col w3-half w3-padding-large w3-left">
+            <div class="w3-rightbar w3-border-blue w3-round" data-scroll="toggle(.fromBottomIn, .fromBottomOut)"><p data-scroll="toggle(.fromLeftIn, .fromLeftOut)" class="w3-container"><b>الرسالة</b></p></div>
+          <p data-scroll="toggle(.fromRightIn, .fromRightOut)">نحن نادي عشائر الجوالة نشاطٌ طلابي ذو طابع تربويّ تطوعي بجامعة الملك فهد للبترول والمعادن، نسعى للارتقاء بالمجتمع وذلك بالاستثمار في الإنسان وصقل شخصيته وتعزيز هويّته والسموِّ بروحه، وفق المنهج الكشفي السعودي </p>
+        </div>
+     </div>
   </div>
 
-  <!-- Third Parallax Image with Logo Text -->
+  <!-- Second Parallax Image with Logo Text -->
   <div class="bgimg-2 w3-display-container w3-opacity-min" id="HeadQuarters">
     <div class="w3-display-middle w3-image" style="white-space:nowrap;">
       <p data-scroll="toggle(.scaleDownIn, .scaleDownOut)" class="w3-xxlarge w3-text-white" style="color: white;  text-shadow: 2px 2px 4px #000000;">مــقــر الــنــادي</p>
     </div>
   </div>
 
-  <div class="w3-container w3-padding-16">
+  <div class=" w3-content w3-white w3-card-4 w3-padding-large">
     <div class="w3-bar w3-dark-grey">
-      <button class="w3-bar-item w3-button tablink w3-teal" style="width:25%" onclick="displayEvent(event,'book')">حجز المقر</button>
+      <button class="w3-bar-item w3-button tablink " style="width:25%" onclick="displayEvent(event,'book')">حجز المقر</button>
       <button class="w3-bar-item w3-button tablink " style="width:25%" onclick="displayEvent(event,'bookings')">استعراض الحجوزات</button>
       <button class="w3-bar-item w3-button tablink " style="width:25%" onclick="displayEvent(event,'library')">استعراض مكتبة النادي</button>
       <button class="w3-bar-item w3-button tablink " style="width:25%" onclick="displayEvent(event,'storage')">استعراض مخزن النادي</button>
@@ -153,10 +151,10 @@
   </div>
 
   <!-- Container (Portfolio Section) -->
-  <div class="w3-content w3-container w3-padding-64">
+  <div class="w3-content w3-content w3-white w3-card-4 w3-container w3-padding-64">
     <p class="w3-center"><em>بعض صور الأعضاء في برامج وأنشطة النادي</em></p>
 
-    <div class="w3-content w3-display-container" style="max-width:800px">
+    <div class="w3-content w3-hover-shadow w3-display-container">
 
       <img class="mySlides" src="121.jpg" style="width:100%">
       <img class="mySlides" src="131.jpg" style="width:100%">
@@ -189,19 +187,14 @@
   </div>
 
   <!-- Container (Contact Section) -->
-  <div class="w3-content w3-container w3-padding-64">
+  <div class="w3-content w3-container w3-white w3-card-4 w3-padding-64">
     <p class="w3-center"><em>رأيك يهمنا</em></p>
-
+      
     <div class="w3-row w3-padding-32 w3-section">
-      <div class="w3-col m4 w3-container">
-        <!-- Add Google Maps -->
-        <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
-      </div>
-      <div class="w3-col m8 w3-panel">
+        
+      <div class="w3-col w3-half w3-panel w3-right">
         <div style="text-align:right" class="w3-large w3-margin-bottom">
-          جامعة الملك فهد للبترول والمعادن <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><br>
-        </div>
-
+          جامعة الملك فهد للبترول والمعادن <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i><br></div>
         <form action="/action_page.php" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
@@ -212,15 +205,17 @@
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-right w3-section" type="submit">  أرسل الرسالة <i class="fa fa-paper-plane"></i>
+          <button class="w3-button w3-black w3-center w3-col w3-section w3-hover-shadow" type="submit">  أرسل الرسالة <i class="fa fa-paper-plane"></i>
         </button>
         </form>
       </div>
+        
+        <div class="w3-col w3-container w3-half w3-round"><img src="avatar.png" class=" w3-image w3-padding-large" style="border-radius: 5px 75px; width:100%" alt="user's avatar"></div>
     </div>
   </div>
 
   <!-- Footer -->
-  <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <footer class="w3-center w3-black w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>عد للأعلى</a>
     <div class="w3-xlarge w3-section">
       <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -234,3 +229,6 @@
 </body>
 
 </html>
+<div id="root">
+  <!-- This div's content will be managed by React. -->
+</div>
